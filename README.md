@@ -49,13 +49,13 @@ This tool is ideal for:
 ---
 
 ## 📁 Folder Structure
-
+```
 math-problem-solver/
 ├── main.py # Main logic for input and AI interaction
 ├── .env # Environment variables (not committed)
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
+```
 ---
 
 ## ⚙️ Installation
