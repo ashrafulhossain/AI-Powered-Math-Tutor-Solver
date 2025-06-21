@@ -51,7 +51,7 @@ Edit
 
 git clone https://github.com/your-username/math-problem-solver.git
 cd math-problem-solver
-2. Install dependencies
+### 2. Install dependencies
 💡 Use a virtual environment if possible.
 
 bash
@@ -64,7 +64,7 @@ Create a .env file in the root directory and add your API keys:
 env
 Copy
 Edit
-OPENAI_API_KEY=your_openai_key_here
+OPENAI_API_KEY=your_openai_key_here 
 DEEPGRAM_API_KEY=your_deepgram_key_here
 ### 🎮 Usage
 Run the program:
