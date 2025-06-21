@@ -38,9 +38,7 @@ math-problem-solver/
 ├── requirements.txt # Python dependencies
 ├── README.md # Project documentation
 
-yaml
-Copy
-Edit
+
 
 ---
 
