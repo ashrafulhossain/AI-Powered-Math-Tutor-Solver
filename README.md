@@ -9,13 +9,13 @@ A smart math assistant that helps solve math problems using OpenAI and Deepgram.
 
 ## 🚀 Features
 
-- 🔤 **Text-based math queries** support  
-- 🗣️ **Voice input** with speech-to-text using Deepgram  
-- 🖼️ **Image input** using GPT-4o for image-based math extraction  
-- 🤖 Intelligent math reasoning with step-by-step answers (in plain English)  
-- 🔄 Follow-up question support with context  
-- 🛠️ Built-in vague input handling  
-- 🔒 `.env` file support for API keys  
+- Text-based math queries support  
+- Voice input with speech-to-text using Deepgram  
+- Image input using GPT-4o for image-based math extraction  
+- Intelligent math reasoning with step-by-step answers (in plain English)  
+- Follow-up question support with context  
+- Built-in vague input handling  
+- `.env` file support for API keys  
 
 ---
 
@@ -83,8 +83,8 @@ Uploading an image
 
 The AI will return a clear, step-by-step solution.
 
-🧪 Dependencies
-Your requirements.txt should include:
+Dependencies 🧪
+Make sure the following packages are in your requirements.txt:
 
 txt
 Copy
@@ -97,7 +97,7 @@ python-dotenv
 keyboard
 ⚠️ On Windows, you may need to install pyaudio manually via a .whl file if the regular install fails.
 
-🤖 AI Prompt Format
+AI Prompt Format 🤖
 The assistant follows the Thetawise format:
 
 A short explanation of the problem
@@ -106,29 +106,29 @@ Step-by-step breakdown in plain English
 
 A clear final answer (e.g., “So, the solution is x = 5”)
 
-🛑 Limitations
+Limitations 🛑
 Only supports .jpg, .jpeg, and .png for image input
 
 Voice input ends when you press Enter
 
 Requires internet access for OpenAI & Deepgram APIs
 
-🧩 Future Improvements
+Future Improvements 🧩
 GUI using Gradio or Tkinter
 
 Error logging and retry system
 
 Optional LaTeX output support
 
-📝 License
+License 📝
 MIT License
 
-🙋‍♂️ Author
+Author 🙋‍♂️
 Created by Your Name
 Feel free to open issues or suggestions!
 
-✅ Extra Tip
-To generate a requirements.txt automatically, run:
+Extra Tip ✅
+To quickly generate a requirements.txt, run:
 
 bash
 Copy
