@@ -58,7 +58,7 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
-3. Set up .env file
+### 3. Set up .env file
 Create a .env file in the root directory and add your API keys:
 
 env
@@ -66,7 +66,7 @@ Copy
 Edit
 OPENAI_API_KEY=your_openai_key_here
 DEEPGRAM_API_KEY=your_deepgram_key_here
-🎮 Usage
+### 🎮 Usage
 Run the program:
 
 bash
@@ -83,7 +83,7 @@ Uploading an image
 
 The AI will return a clear, step-by-step solution.
 
-Dependencies 🧪
+### Dependencies 🧪
 Make sure the following packages are in your requirements.txt:
 
 txt
@@ -97,7 +97,7 @@ python-dotenv
 keyboard
 ⚠️ On Windows, you may need to install pyaudio manually via a .whl file if the regular install fails.
 
-AI Prompt Format 🤖
+### AI Prompt Format 🤖
 The assistant follows the Thetawise format:
 
 A short explanation of the problem
@@ -106,28 +106,28 @@ Step-by-step breakdown in plain English
 
 A clear final answer (e.g., “So, the solution is x = 5”)
 
-Limitations 🛑
+### Limitations 🛑
 Only supports .jpg, .jpeg, and .png for image input
 
 Voice input ends when you press Enter
 
 Requires internet access for OpenAI & Deepgram APIs
 
-Future Improvements 🧩
+### Future Improvements 🧩
 GUI using Gradio or Tkinter
 
 Error logging and retry system
 
 Optional LaTeX output support
 
-License 📝
+### License 📝
 MIT License
 
-Author 🙋‍♂️
-Created by Your Name
+### Author 🙋‍♂️
+Created by Ashraful Hossain
 Feel free to open issues or suggestions!
 
-Extra Tip ✅
+### Extra Tip ✅
 To quickly generate a requirements.txt, run:
 
 bash
