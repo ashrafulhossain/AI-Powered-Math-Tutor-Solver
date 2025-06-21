@@ -30,13 +30,13 @@ A smart math assistant that helps solve math problems using OpenAI and Deepgram.
 
 ---
 
-## 📂 Folder Structure
+## 📁 Folder Structure
 
 math-problem-solver/
 ├── main.py # Main logic for input and AI interaction
 ├── .env # Environment variables (not committed)
 ├── requirements.txt # Python dependencies
-├── README.md # Project documentation
+└── README.md # Project documentation
 
 
 
