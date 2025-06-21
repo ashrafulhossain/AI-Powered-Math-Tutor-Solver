@@ -54,9 +54,7 @@ cd math-problem-solver
 ### 2. Install dependencies
 💡 Use a virtual environment if possible.
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 ### 3. Set up .env file
 Create a .env file in the root directory and add your API keys:
@@ -68,9 +66,7 @@ DEEPGRAM_API_KEY=your_deepgram_key_here
 ### 🎮 Usage
 Run the program:
 
-bash
-Copy
-Edit
+
 python main.py
 You will be prompted to input your math problem by:
 
@@ -85,15 +81,19 @@ The AI will return a clear, step-by-step solution.
 ### Dependencies 🧪
 Make sure the following packages are in your requirements.txt:
 
-txt
-Copy
-Edit
+
 openai
+
 deepgram-sdk
+
 pyaudio
+
 Pillow
+
 python-dotenv
+
 keyboard
+
 ⚠️ On Windows, you may need to install pyaudio manually via a .whl file if the regular install fails.
 
 ### AI Prompt Format 🤖
@@ -129,7 +129,4 @@ Feel free to open issues or suggestions!
 ### Extra Tip ✅
 To quickly generate a requirements.txt, run:
 
-bash
-Copy
-Edit
 pip freeze > requirements.txt
