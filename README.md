@@ -7,6 +7,24 @@ A smart math assistant that helps solve math problems using OpenAI and Deepgram.
 
 ---
 
+## Project Description 📌
+
+**AI Math Problem Solver** is a Python-based smart assistant that helps users solve math problems using natural language and visual input. It leverages the power of OpenAI’s GPT-4o for problem-solving and Deepgram for real-time speech recognition.
+
+Users can input math questions in three flexible ways:
+- 📝 Typing directly into the console
+- 🗣️ Speaking their question using a microphone
+- 🖼️ Uploading an image (handwritten or printed) of a math problem
+
+The system understands vague prompts, extracts and interprets math content from images, and responds with clear, step-by-step solutions in plain English.
+
+This tool is ideal for:
+- Students needing quick solutions or explanations
+- Educators creating learning materials
+- Anyone wanting to check their math work
+
+---
+
 ## 🚀 Features
 
 - Text-based math queries support  
