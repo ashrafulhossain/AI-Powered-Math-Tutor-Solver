@@ -73,10 +73,11 @@ pip install -r requirements.txt
 ### 3. Set up .env file
 Create a .env file in the root directory and add your API keys:
 
-
+```
 OPENAI_API_KEY=your_openai_key_here
 
 DEEPGRAM_API_KEY=your_deepgram_key_here
+```
 ### 🎮 Usage
 Run the program:
 
